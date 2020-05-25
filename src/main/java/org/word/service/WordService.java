@@ -5,7 +5,7 @@ import org.springframework.web.multipart.MultipartFile;
 import java.util.Map;
 
 /**
- * Created by XiuYin.Cui on 2018/1/12.
+ * Created by Danne on 2018/1/12.
  */
 public interface WordService {
 

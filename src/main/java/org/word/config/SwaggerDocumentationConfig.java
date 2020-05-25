@@ -14,7 +14,7 @@ import java.util.Collections;
 import java.util.List;
 
 /*
- * added by dongxl6
+ * added by Danne
  * enable swagger-ui
  */
 @Configuration
@@ -22,13 +22,11 @@ public class SwaggerDocumentationConfig {
 
     ApiInfo apiInfo() {
         return new ApiInfoBuilder()
-            .title("Swagger to Word")
-            .description("a tool for converting swagger json to word")
-            .license("Apache 2.0")
-            .licenseUrl("http://www.apache.org/licenses/LICENSE-2.0.html")
+            .title("Swagger2 导出word文档")
+            .description("swagger2 json 格式转化为 word")
             .termsOfServiceUrl("")
             .version("0.0.1")
-            .contact(new Contact("","", "742849734@qq.com"))
+            .contact(new Contact("Danne","https://github.com/Danne-Lee", "742849734@qq.com"))
             .build();
     }
 

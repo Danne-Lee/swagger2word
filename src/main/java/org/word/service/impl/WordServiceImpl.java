@@ -22,7 +22,7 @@ import java.util.Map.Entry;
 import java.util.stream.Collectors;
 
 /**
- * @Author XiuYin.Cui
+ * @Author Danne
  * @Date 2018/1/12
  **/
 @SuppressWarnings({"unchecked", "rawtypes"})
