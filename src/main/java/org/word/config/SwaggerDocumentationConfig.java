@@ -23,7 +23,7 @@ public class SwaggerDocumentationConfig {
     ApiInfo apiInfo() {
         return new ApiInfoBuilder()
             .title("Swagger2 导出word文档")
-            .description("swagger2 json 格式转化为 word")
+            .description("使用swagger json将swagger在线接口生成接口文档 \n swagger json 地址为http://ip:host/v2/api-docs")
             .termsOfServiceUrl("")
             .version("0.0.1")
             .contact(new Contact("Danne","https://github.com/Danne-Lee", "742849734@qq.com"))
