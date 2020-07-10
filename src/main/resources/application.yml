@@ -3,10 +3,18 @@ server:
   tomcat:
     max-threads: 800
     uri-encoding: UTF-8
+    max-http-form-post-size: 10MB
+    max-swallow-size: 10MB
+
 
 spring:
   application:
     name: swagger2word
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 1000MB
+      max-request-size: 1000MB
   thymeleaf:
     prefix: classpath:/templates/
     suffix: .html
@@ -20,10 +28,6 @@ spring:
 # Swagger json url address
 # etc. https://petstore.swagger.io/
 swagger.url: https://petstore.swagger.io/v2/swagger.json
-
-
-
-
 
 
 
