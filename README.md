@@ -12,7 +12,6 @@
 
 #### 版本： SwaggerToWord 1.0 （2018-01-18）
 1. 一个Swagger API 文档转 Word 文档的工具项目 
-2. 项目想法和说明可以参考：[http://www.cnblogs.com/jmcui/p/8298823.html](http://www.cnblogs.com/jmcui/p/8298823.html)
 
 #### 版本：SwaggerToWord 1.1 (2018-02-11)
 1. 替换 HttpClient 工具类以适配更多的Restful服务。
@@ -32,19 +31,17 @@
 1. 取消 HttpClient 的请求方式去获得返回值，改由从 Swagger Json 文件中直接读取  
 2. 针对 application/json 请求方式的入参做渲染     
 3. 对于文字过多导致 HTML table 变形做适配   
-4. 真诚感谢 [fpzhan](https://github.com/fpzhan)  的代码贡献。
 
 ##### 版本: SwaggerToWord 1.4.1 (2019-09-25)
 1. 修复当请求参数为@RequestBody 时，参数类型显示不正确问题。
 2. 新增直接从请求路径中获取 Swagger JSON,多项目下API文档生成。
 3. 解决中文乱码问题。
-4. 真诚感谢 [NealLemon](https://github.com/NealLemon) 的代码贡献。
 
 
 ##### 版本: SwaggerToWord 1.4.2 (2019-10-11)
 1. 增加一键下载doc文件文件的方式。
-2. 真诚感谢 [benwudan](https://github.com/benwudan) 的想法和代码贡献。
 
 #### 版本：SwaggerToWord 1.5 (2019-12-18)
 1. 代码梳理和页面美化。
-4. 真诚感谢 [kevin4j](https://github.com/kevin4j)  的代码贡献。
+2. 升级swagger2 版本到2.9.2（升级之后界面好看多啦）
+3. 修改strToWord 接口中jsonStr参数请求url过长的问题（修改为post请求，将jsonStr放在requestBody中传参）
